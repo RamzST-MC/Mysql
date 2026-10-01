@@ -39,7 +39,7 @@ sudo apt install nginx php8.3-fpm php8.3-mysql php8.3-mbstring php8.3-zip php8.3
 
 ```bash
 cd /tmp
-wget https://files.phpmyadmin.net/phpMyAdmin/5.2.3/phpMyAdmin-5.2.3-all-languages.tar.xz
+wget https://files.phpmyadmin.net/phpMyAdmin/5.2.3/phpMyAdmin-5.2.3-all-languages.tar.gz
 tar xzf phpMyAdmin-5.2.3-all-languages.tar.gz
 sudo mv phpMyAdmin-5.2.3-all-languages /usr/share/phpmyadmin
 sudo chown -R www-data:www-data /usr/share/phpmyadmin
